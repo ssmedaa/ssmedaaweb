@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    color: #ffffffa4;
+    font-size: 450%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding-top: 15%;
+    padding-left: 35%;
+}
+
+header {
+    background-image: url("images/glass.jpg");
+    background-repeat: round;
+    padding-bottom: 10%;
+    padding-top: 0%;
+}
+
+h1 {
+    padding-top: 40%;
+    background-color: black;
+    color: white;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    text-decoration: underline black;
+    padding-left: 60%;
+    padding-bottom: 5%;
+}
+
+h2 {
+    color: rgb(31, 31, 31);
+    font-size: 160%;
+    text-decoration: underline overline rgb(226, 198, 202);
+    font-style: inherit;
+    padding-left: 27%;
+}
+
+section {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 25%;
+}
+
+.section {
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.about {
+    padding-right: 5%;
+    padding-left: 10%;
+}
+
+.pj {
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+.abtbutton {
+    margin-inline-start: 16%;
+    background-color: rgb(226, 198, 202);
+    color: white;
+    border-color: rgb(226, 198, 202);
+    border-style: ridge;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pjbutton {
+    margin-inline-start: 23%;
+    background-color: rgb(226, 198, 202);
+    color: white;
+    border-color: rgb(226, 198, 202);
+    border-style: ridge;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contbutton {
+    margin-inline-start: 24%;
+    background-color: rgb(226, 198, 202);
+    color: white;
+    border-color: rgb(226, 198, 202);
+    border-style: ridge;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    background-color: black;
+    list-style-type: none;
+    padding-left: 15%;
+}
+
+li {
+    background-color: black;
+    display: inline-block;
+    margin-right: 20%;
+}
+
+footer {
+    font-size: x-small;
+    color: rgb(223, 219, 219);
+    background-color: rgb(5, 5, 5);
+    padding-top: 0.5%;
+}
+
+h3 {
+    font-size: 450%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-left: 40%;
+}
+
+h4 {
+    font-size: 400%;
+    color: #63585885;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-top: 10%;
+    padding-left: 40%;
+}
+
+.abt {
+    padding-bottom: 10%;
+    background-color: rgb(138, 110, 96);
+    background-image: url("images/Abtliness.png");
+    background-repeat: no-repeat;
+    color: #ffffff8a;
+    font-size: 130%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.abt-intro {
+    background-color: whitesmoke;
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+
+.intro-img {
+    flex: 20%;
+}
+
+.experinces {
+    background-color: whitesmoke;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+h4 {
+    padding-top: 2%;
+    padding-left: 10%;
+}
+
+.p-info {
+    background-color: whitesmoke;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-left: 35%;
+    padding-right: 30%;
+    font-size: medium;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.proj {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 30%;
+}
+
+.pjheader {
+    background-color: rgb(241, 234, 205);
+    background-image: url("images/c.png");
+    padding-bottom: 10%;
+    background-repeat: no-repeat;
+    color: #f5f5f596;
+    font-size: 130%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacts {
+    background-image: url("images/hh.png");
+    background-color: rgb(216, 208, 195);
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 130%;
+    color: #f5f5f596;
+}
+
+body {
+    background-color: whitesmoke;
+}
